@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import *
 
 class SucursalAdmin(admin.ModelAdmin):
-    list_display = ['nombre','propietario','capacidadMaxima',]
+    list_display = ['nombre','propietario','capacidadMaxima','localizacion','propietario']
 
 class SensorAdmin(admin.ModelAdmin):
     list_display = ['id','nombre',]
